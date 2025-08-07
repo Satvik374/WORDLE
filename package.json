@@ -1,0 +1,29 @@
+{
+  "name": "wordle-clone",
+  "version": "1.0.0",
+  "description": "A complete Wordle clone with all features and animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p $PORT -a 0.0.0.0",
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build step required for static site'",
+    "serve": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "wordle",
+    "game",
+    "puzzle",
+    "word-game",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Wordle Clone Developer",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
