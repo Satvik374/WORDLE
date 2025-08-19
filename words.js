@@ -1,6 +1,6 @@
 // Valid 5-letter words for Wordle
 const VALID_WORDS = [
-    'ABOUT', 'ABOVE', 'ABUSE', 'ACTOR', 'ACUTE', 'ADMIT', 'ADOPT', 'ADULT', 'AFTER', 'AGAIN',
+    'AANSH', 'ABOUT', 'ABOVE', 'ABUSE', 'ACTOR', 'ACUTE', 'ADMIT', 'ADOPT', 'ADULT', 'AFTER', 'AGAIN',
     'AGENT', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALIEN', 'ALIGN', 'ALIKE',
     'ALIVE', 'ALLOW', 'ALONE', 'ALONG', 'ALTER', 'AMONG', 'ANGER', 'ANGLE', 'ANGRY', 'APART',
     'APPLE', 'APPLY', 'ARENA', 'ARGUE', 'ARISE', 'ARRAY', 'ARROW', 'ASIDE', 'ASKED', 'ASSET',
@@ -15,7 +15,7 @@ const VALID_WORDS = [
     'CLAIM', 'CLASS', 'CLEAN', 'CLEAR', 'CLICK', 'CLIMB', 'CLOCK', 'CLOSE', 'CLOUD', 'CLOWN',
     'COACH', 'COAST', 'COULD', 'COUNT', 'COURT', 'COVER', 'CRAFT', 'CRASH', 'CRAZY', 'CREAM',
     'CREEK', 'CRIME', 'CRISP', 'CROSS', 'CROWD', 'CROWN', 'CRUDE', 'CURVE', 'CYCLE', 'DAILY',
-    'DAMAGE', 'DANCE', 'DATED', 'DEALT', 'DEATH', 'DEBUG', 'DEBUT', 'DELAY', 'DEPTH', 'DIGIT',
+    'DAMAGE','DANCE', 'DATED', 'DEALT', 'DEATH', 'DEBUG', 'DEBUT', 'DELAY', 'DEPTH', 'DIGIT',
     'DINER', 'DIRTY', 'DITCH', 'DOING', 'DOUBT', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAMA', 'DRANK',
     'DRAWN', 'DRAWL', 'DREAM', 'DRESS', 'DRIFT', 'DRILL', 'DRINK', 'DRIVE', 'DROVE', 'DYING',
     'EAGER', 'EAGLE', 'EARLY', 'EARTH', 'EIGHT', 'ELITE', 'EMAIL', 'EMOJI', 'EMPTY', 'ENEMY',
@@ -197,7 +197,7 @@ const VALID_WORDS = [
 
 // Possible answer words (subset of valid words for daily answers)
 const ANSWER_WORDS = [
-    'ABOUT', 'ABOVE', 'ABUSE', 'ACTOR', 'ACUTE', 'ADMIT', 'ADOPT', 'ADULT', 'AFTER', 'AGAIN',
+    'AANSH', 'ABOUT', 'ABOVE', 'ABUSE', 'ACTOR', 'ACUTE', 'ADMIT', 'ADOPT', 'ADULT', 'AFTER', 'AGAIN',
     'AGENT', 'AGREE', 'AHEAD', 'AISLE', 'ALARM', 'ALBUM', 'ALERT', 'ALIEN', 'ALIGN', 'ALIKE',
     'ALIVE', 'ALLOW', 'ALONE', 'ALONG', 'ALTER', 'AMONG', 'ANGER', 'ANGLE', 'ANGRY', 'APART',
     'APPLE', 'APPLY', 'ARENA', 'ARGUE', 'ARISE', 'ARRAY', 'ARROW', 'ASIDE', 'ASKED', 'ASSET',
@@ -397,4 +397,5 @@ function getRandomWord() {
 // Function to check if a word is valid
 function isValidWord(word) {
     return VALID_WORDS.includes(word.toUpperCase());
+
 }
